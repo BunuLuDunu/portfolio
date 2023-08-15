@@ -29,16 +29,30 @@
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
     
+    .about-skills {
+
+        &:before {
+            display: inline-block;
+            content: "";
+            width: 17rem;
+            height: 0.5rem;
+            background-color: #9DB5B2;
+            border-radius: 0.62rem;
+            margin-top: 3rem;
+        }
+    }
+    
+    .skills-title {
+        margin-block: 3rem;
+    }
+
     .skills-list {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 3rem;
-        margin-top: 3rem;
 
-        .skills-icon {
-            svg {
-                font-size: 4rem;
-            }
+        .skill-icon {
+            font-size: 4rem;
         }
     }
 }
@@ -67,10 +81,8 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 0.75rem;
 
-            .skills-icon {
-                svg {
-                    font-size: 1.75rem;
-                }
+            .skill-icon {
+                font-size: 1.75rem;
             }
         }
     }
