@@ -1,0 +1,45 @@
+.projects {
+    margin-inline: auto;
+
+    &-title {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    &-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .project {
+        display: flex;
+        align-items: center;
+
+
+        img {
+            aspect-ratio: 960 / 584;
+            object-fit: cover;
+            width: 40%;
+            border-radius: 0.63rem;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1.5rem;
+
+            .project-tags {
+                display: flex;
+                gap: 1rem;
+            }
+
+            .project-tag {
+                background-color: #A2C5AC;
+                padding: 0.5rem 0.75rem;
+                border-radius: 1.5rem;
+            }
+        }
+    }
+}

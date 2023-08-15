@@ -35,6 +35,7 @@ function createProject(project) {
     project.tags.forEach((tag) => {
         const tagListItem = document.createElement("li");
         tagListItem.innerText = tag;
+        tagListItem.classList.add("project-tag");
 
         tagList.appendChild(tagListItem);
     })
