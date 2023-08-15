@@ -56,3 +56,30 @@
         }
     }
 }
+
+// Media queries 
+
+@media  screen and (max-width: 480px) {
+    .projects {
+
+        .project {
+            flex-direction: column;
+
+            img {
+                width: 100%;
+            }
+
+            &-info {
+                margin-left: 0;
+
+                .project-tags {
+                    gap: 0.875rem;
+                }
+
+                .project-tag {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+}

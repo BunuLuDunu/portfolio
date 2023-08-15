@@ -290,6 +290,23 @@ footer {
   border-radius: 1.5rem;
 }
 
+@media screen and (max-width: 480px) {
+  .projects .project {
+    flex-direction: column;
+  }
+  .projects .project img {
+    width: 100%;
+  }
+  .projects .project-info {
+    margin-left: 0;
+  }
+  .projects .project-info .project-tags {
+    gap: 0.875rem;
+  }
+  .projects .project-info .project-tag {
+    font-size: 0.875rem;
+  }
+}
 main {
   margin-inline: clamp(1.22rem, 6vw, 6.25rem);
 }
