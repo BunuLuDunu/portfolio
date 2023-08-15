@@ -1,0 +1,38 @@
+[
+    {   
+        "id": 1,
+        "title": "Kasa",
+        "cover": "",
+        "description": "Pour ce projet, j'ai créé une application web de location d'appartements entre particuliers avec React. J'ai beaucoup appris avec ce projet, notamment d'initialiser une application avec Create React App, de configurer la navigation des pages avec React Router, de développer des éléments d'interface grâce à des composants React et l'utisation des Hooks (useState et useEffect). Mais j'ai aussi appris à développer une interface web avec Sass et mettre en oeuvre des animations CSS.",
+        "tags": [
+            "React.js",
+            "Sass"
+        ]
+    },
+
+    {
+        "id": 2,
+        "title": "Archiwebos",
+        "cover": "",
+        "description": "Ce projet consistait à travailler sur la conception du site porfolio d'une architecte d'intérieur. J'ai codé la page de présentation des travaux de l'architecte, la page de connexion du client (l'administrateur du site) et la modale permettant d'uploader de nouveaux médias. Il m'a permis d'apprendre le fonctionnement des appels à une API et comment étaient récupérées les données, comment manipuler les éléments du DOM et gérér les évènements utilisateurs avec JavaScript mais aussi comment récupérer des données utilisateurs dans le JavaScript via des formulaires.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "API"
+        ]
+    },
+
+    {
+        "id": 3,
+        "title": "Booki",
+        "cover": "",
+        "description": "Dans ce projet, j'ai développé la landing page d'un site permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. C'était mon premier projet de formation et j'ai pu apprendre à installer un environnement de développement front-end, intégrer du contenu conformément à une maquette avec HTML et CSS, versionner mon projet avec Git et Github et implémentter une interface responsive.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Git",
+            "GitHub"
+        ]
+    }
+]

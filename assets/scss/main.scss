@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf) format('ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body {
+    background-color: #D3D5D4;
+    font-family: Montserrat, sans-serif;
+    color: #272023;
+    scroll-behavior: smooth;
+}
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/hero';
+@import 'components/about';
+@import 'components/projects';
+
+@import 'pages/home';

@@ -1,0 +1,8 @@
+main {
+  margin-inline: clamp(1.22rem, 6vw, 6.25rem);
+}
+main section {
+  margin-bottom: 3rem;
+}
+
+/*# sourceMappingURL=home.css.map */
