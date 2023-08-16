@@ -194,6 +194,9 @@ footer {
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+.about-intro-content p {
+  padding: 0.875rem;
+}
 .about-cv {
   display: block;
   margin-inline: auto;
