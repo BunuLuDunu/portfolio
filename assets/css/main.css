@@ -97,9 +97,6 @@ body {
   .header-wrapper .nav-menu {
     gap: 1rem;
   }
-  .header-wrapper .nav-menu .nav-link {
-    font-size: 0.75rem;
-  }
 }
 footer {
   background-color: #9DB5B2;
@@ -138,6 +135,7 @@ footer {
   background-color: #9DB5B2;
   border-radius: 1.5rem;
   padding: 9rem 5rem;
+  gap: 2rem;
 }
 .hero-avatar {
   display: flex;
@@ -157,7 +155,10 @@ footer {
 }
 .hero-content {
   text-align: center;
-  margin-bottom: 2rem;
+}
+.hero-content .hero-intro {
+  margin-top: 1.5rem;
+  max-width: 60rem;
 }
 .hero-btn {
   display: block;
@@ -171,9 +172,6 @@ footer {
   .hero {
     padding: 3rem 1.75rem;
   }
-  .hero-content {
-    margin-bottom: 1rem;
-  }
 }
 .about {
   text-align: center;
@@ -183,6 +181,7 @@ footer {
 .about-intro {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 .about-picture {
   margin-inline: auto;
@@ -235,10 +234,10 @@ footer {
 @media screen and (max-width: 480px) {
   .about .skills-list {
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.75rem;
+    gap: 1rem;
   }
   .about .skills-list .skill-icon {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 .projects {
@@ -281,9 +280,13 @@ footer {
   flex-direction: column;
   margin-left: 1.5rem;
 }
+.projects .project-info .project-title {
+  margin-block: 1rem;
+}
 .projects .project-info .project-tags {
   display: flex;
   gap: 1rem;
+  margin-top: 1rem;
 }
 .projects .project-info .project-tag {
   background-color: #A2C5AC;
@@ -291,7 +294,7 @@ footer {
   border-radius: 1.5rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .projects .project {
     flex-direction: column;
   }

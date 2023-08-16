@@ -6,6 +6,7 @@
     background-color: #9DB5B2;
     border-radius: 1.5rem;
     padding: 9rem 5rem;
+    gap: 2rem;
     
     &-avatar {
         display: flex;
@@ -27,7 +28,11 @@
 
     &-content {
         text-align: center;
-        margin-bottom: 2rem;
+
+        .hero-intro {
+            margin-top: 1.5rem;
+            max-width: 60rem;
+        }
     }
 
     &-btn {
@@ -42,9 +47,5 @@
 @media screen and (max-width: 767px) {
     .hero {
         padding: 3rem 1.75rem;
-
-        &-content {
-            margin-bottom: 1rem;
-        }
     }
 }

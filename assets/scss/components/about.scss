@@ -6,6 +6,7 @@
     &-intro {
         display: flex;
         flex-direction: column;
+        gap: 2rem;
     }
 
     &-picture {
@@ -79,10 +80,10 @@
 
         .skills-list {
             grid-template-columns: repeat(3, 1fr);
-            gap: 0.75rem;
+            gap: 1rem;
 
             .skill-icon {
-                font-size: 1.75rem;
+                font-size: 2rem;
             }
         }
     }

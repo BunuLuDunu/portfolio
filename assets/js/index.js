@@ -2,8 +2,11 @@
 const response = await fetch('data/projects.json');
 const projects = await response.json();
 
+
+// Récupération de l'élément du DOM qui accueillera les projets
 const list = document.querySelector(".projects-cards");
 
+// Fonction pour créer la liste des projets
 function createList(projects) {
     list.innerHTML = "";
     projects.forEach(createProject)
@@ -11,7 +14,7 @@ function createList(projects) {
 
 createList(projects);
 
-
+// Fonction pour créer un projet
 function createProject(project) {
     const listItem = document.createElement("li");
     listItem.setAttribute("id", project.id);

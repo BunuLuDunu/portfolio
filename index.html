@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Laurine Sassano, une développeuse front-end junior contenant une présentation, une liste de ses compétences et les projets réalisés lors de sa formation." />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Laurine Sassano | Portfolio</title>
 
     <link rel="stylesheet" href="assets/css/main.css">
@@ -10,11 +13,15 @@
 
 <body>
     <header>
+
+        <!-- HEADER -->
         <div class='header-wrapper'>
             <a class='header-logo' href='/'>
-                <img src="assets/img/logo.png" alt='Portfolio Logo' />
+                <img src="assets/img/logo.svg" alt='Portfolio Logo' />
             </a>
             <nav>
+
+                <!-- NAVIGATION -->
                 <ul class='nav-menu'>
                     <li><a href='#about' class='nav-link'>A propos</a></li>
                     <li><a href='#projects' class='nav-link'>Projets</a></li>
@@ -25,102 +32,113 @@
     </header>
 
     <main>
-        <section class='home-hero'>
-            <div class='hero'>
-                <div class='hero-avatar'>
-                    <img src="assets/img/avatar.png" alt="Avatar de Laurine Sassano faisant coucou"/>
-                </div>
-                <div class="hero-content">
-                    <h1 class='hero-title'>Bonjour, je suis Laurine Sassano.</h1>
-                    <p class='hero-intro'>Je suis une développeuse web française avec une appétence pour le front-end souhaitant créer des expériences utilisateurs accessibles et satisfaisantes.</p>
-                </div>
-                <a href="#about" class='hero-btn'>En savoir plus sur moi</a>
-            </div>
-        </section>
-        
-        <section class='home-about' id='about'>
-            <div class="about">
-                <div class="about-intro">
-                    <img src="assets/img/picture.webp" alt="Photo de Laurine Sassano" class='about-picture' loading='lazy'/>
+        <div class="main-container">
 
-                    <h2 class="about-intro-title">À propos de moi</h2>
-                    
-                    <div class="about-intro-content">
-                        <p>Après plusieurs années en tant que créatrice de contenu autour des séries et des jeux vidéos en freelance, j'ai décidé d'entreprendre une reconversion dans le développement web.</p>
-                        <p>Actuellement en cours d'obtention d'un diplôme de niveau 5 (bac +2) chez OpenClassRooms, je recherche à présent des opportunités pour débuter ma carrière.</p>
-                        <p>Je souhaite rejoindre une équipe où je pourrais mettre en pratique mes compétences techniques et ma créativité pour contribuer à des projets innovants et créer des expériences utilisateur engageantes.</p>
-                        <p>Je suis également ouverte à un poste en alternance afin de pouvoir poursuivre mes études dans le domaine et approfondir mes compétences.</p>
+            <!-- SECTION HERO -->
+            <section class='home-hero'>
+                <div class='hero'>
+                    <div class='hero-avatar'>
+                        <img src="assets/img/avatar.png" alt="Avatar de Laurine Sassano faisant coucou"/>
                     </div>
-                    <a href="assets/files/CV_LAURINE_SASSANO.pdf" target='blank' class='about-cv'>Mon CV</a>
+                    <div class="hero-content">
+                        <h1 class='hero-title'>Bonjour, je suis Laurine Sassano.</h1>
+                        <p class='hero-intro'>Je suis une développeuse web française avec une appétence pour le front-end souhaitant créer des expériences utilisateurs accessibles et satisfaisantes.</p>
+                    </div>
+                    <!-- Lien vers la section A Propos -->
+                    <a href="#about" class='hero-btn'>En savoir plus sur moi</a>
                 </div>
-                <div class="about-skills">
-                    <h3 class="skills-title">Mes compétences & outils</h3>
-                    <ul class="skills-list">
-                        <li>
-                            <i class="fa-brands fa-html5 skill-icon"></i>
-                            <p>HTML5</p>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-css3 skill-icon"></i>
-                            <p>CSS3</p>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-square-js skill-icon"></i>
-                            <p>JavaScript</p>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-react skill-icon"></i>
-                            <p>React</p>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-node-js skill-icon"></i>
-                            <p>Node.js</p>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-sass skill-icon"></i>
-                            <p>Sass</p>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-github skill-icon"></i>
-                            <p>GitHub</p>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-code skill-icon"></i>
-                            <p>VSCode</p>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-magnifying-glass skill-icon"></i>
-                            <p>SEO</p>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-universal-access skill-icon"></i>
-                            <p>Accessibilité</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            </section>
+            
+            <!-- SECTION A PROPOS -->
+            <section class='home-about' id='about'>
+                <div class="about">
+                    <div class="about-intro">
+                        <img src="assets/img/picture.webp" alt="Photo de Laurine Sassano" class='about-picture' loading='lazy'/>
+                        <h2 class="about-intro-title">À propos de moi</h2>
+                        <div class="about-intro-content">
+                            <p>Après plusieurs années en tant que créatrice de contenu autour des séries et des jeux vidéos en freelance, j'ai décidé d'entreprendre une reconversion dans le développement web.</p>
+                            <p>Actuellement en cours d'obtention d'un diplôme de niveau 5 (bac +2) chez OpenClassRooms, je recherche à présent des opportunités pour débuter ma carrière.</p>
+                            <p>Je souhaite rejoindre une équipe où je pourrais mettre en pratique mes compétences techniques et ma créativité pour contribuer à des projets innovants et créer des expériences utilisateur engageantes.</p>
+                            <p>Je suis également ouverte à un poste en alternance afin de pouvoir poursuivre mes études dans le domaine et approfondir mes compétences.</p>
+                        </div>
 
-        <section class='projects' id='projects'>
-            <h2 class='projects-title'>Mes projets</h2>
-            <ul class='projects-cards'></ul>
-        </section>
+                        <!-- Lien pour afficher le CV dans une nouvelle fenêtre -->
+                        <a href="assets/files/CV_LAURINE_SASSANO.pdf" target='blank' class='about-cv'>Mon CV</a>
+                    </div>
+
+                    <!-- Liste des compétences avec icons et descriptions -->
+                    <div class="about-skills">
+                        <h3 class="skills-title">Mes compétences & outils</h3>
+                        <ul class="skills-list">
+                            <li>
+                                <i class="fa-brands fa-html5 skill-icon" aria-hidden="true"></i>
+                                <p>HTML5</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-css3 skill-icon" aria-hidden="true"></i>
+                                <p>CSS3</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-square-js skill-icon" aria-hidden="true"></i>
+                                <p>JavaScript</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-react skill-icon" aria-hidden="true"></i>
+                                <p>React</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-node-js skill-icon" aria-hidden="true"></i>
+                                <p>Node.js</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-sass skill-icon" aria-hidden="true"></i>
+                                <p>Sass</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-github skill-icon" aria-hidden="true"></i>
+                                <p>GitHub</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-code skill-icon" aria-hidden="true"></i>
+                                <p>VSCode</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-magnifying-glass skill-icon" aria-hidden="true"></i>
+                                <p>SEO</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-universal-access skill-icon" aria-hidden="true"></i>
+                                <p>Accessibilité</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- SECTION PROJETS -->
+            <section class='projects' id='projects'>
+                <h2 class='projects-title'>Mes projets</h2>
+                <ul class='projects-cards'></ul>
+            </section>
+        </div>
     </main>
 
+    <!-- FOOTER -->
     <footer id="footer">
         <div class='footer-wrapper'>
-            <a href='mailto:laurine.sassano@gmail.com'>
+            <a aria-label='Envoyer un mail' href='mailto:laurine.sassano@gmail.com'>
                 <i class="fa-solid fa-envelope footer-icon"></i>
             </a>
-            <a aria-label='GitHub' href='https://github.com/BunuLuDunu' target='blank'>
+            <a aria-label='Lien vers GitHub' href='https://github.com/BunuLuDunu' target='blank'>
                 <i class="fa-brands fa-github footer-icon"></i>
             </a>
-            <a aria-label='LinkedIn' href='https://www.linkedin.com/in/laurine-sassano/' target='blank'>
+            <a aria-label='Lien vers LinkedIn' href='https://www.linkedin.com/in/laurine-sassano/' target='blank'>
                 <i class="fa-brands fa-linkedin footer-icon"></i>
             </a>
         </div>
     </footer>
 
+    <!-- Script pour l'affichage des projets -->
     <script src="assets/js/index.js" type="module"></script>
 
     <!-- Script Font Awesome pour les icons -->

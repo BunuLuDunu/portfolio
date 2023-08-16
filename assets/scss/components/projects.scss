@@ -43,9 +43,14 @@
             flex-direction: column;
             margin-left: 1.5rem;
 
+            .project-title {
+                margin-block: 1rem;
+            }
+
             .project-tags {
                 display: flex;
                 gap: 1rem;
+                margin-top: 1rem;
             }
 
             .project-tag {
@@ -59,7 +64,7 @@
 
 // Media queries 
 
-@media  screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .projects {
 
         .project {
