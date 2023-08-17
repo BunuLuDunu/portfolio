@@ -156,6 +156,9 @@ footer {
 .hero-content {
   text-align: center;
 }
+.hero-content .hero-title {
+  font-size: 3rem;
+}
 .hero-content .hero-intro {
   margin-top: 1.5rem;
   max-width: 60rem;
@@ -171,6 +174,9 @@ footer {
 @media screen and (max-width: 767px) {
   .hero {
     padding: 3rem 1.75rem;
+  }
+  .hero-content .hero-title {
+    font-size: 2rem;
   }
 }
 .about {
@@ -193,6 +199,9 @@ footer {
   border-radius: 100%;
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.about-intro-title {
+  font-size: 3rem;
 }
 .about-intro-content p {
   padding: 0.875rem;
@@ -235,6 +244,9 @@ footer {
   }
 }
 @media screen and (max-width: 480px) {
+  .about-intro-title {
+    font-size: 2rem;
+  }
   .about .skills-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -252,6 +264,7 @@ footer {
   align-items: center;
   text-align: center;
   margin-bottom: 3rem;
+  font-size: 3rem;
 }
 .projects-title:before {
   display: inline-block;
@@ -296,8 +309,20 @@ footer {
   padding: 0.5rem 0.75rem;
   border-radius: 1.5rem;
 }
+.projects .project-info .project-link {
+  display: block;
+  margin-inline: auto;
+  margin-top: 1rem;
+  background-color: #9DB5B2;
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
 @media screen and (max-width: 767px) {
+  .projects-title {
+    font-size: 2rem;
+  }
   .projects .project {
     flex-direction: column;
   }

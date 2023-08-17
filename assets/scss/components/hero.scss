@@ -29,6 +29,10 @@
     &-content {
         text-align: center;
 
+        .hero-title {
+            font-size: 3rem;
+        }
+
         .hero-intro {
             margin-top: 1.5rem;
             max-width: 60rem;
@@ -47,5 +51,12 @@
 @media screen and (max-width: 767px) {
     .hero {
         padding: 3rem 1.75rem;
+
+        &-content {
+
+            .hero-title {
+                font-size: 2rem;
+            }
+        }
     }
 }

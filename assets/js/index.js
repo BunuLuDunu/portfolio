@@ -42,6 +42,11 @@ function createProject(project) {
 
         tagList.appendChild(tagListItem);
     })
+    const projectLink = document.createElement("a");
+    projectLink.setAttribute("href", project.link);
+    projectLink.setAttribute("target", "blank");
+    projectLink.classList.add("project-link");
+    projectLink.innerText = "Repo GitHub";
 
     list.appendChild(listItem);
     listItem.appendChild(listContainer);
@@ -50,4 +55,6 @@ function createProject(project) {
     projectInfo.appendChild(projectTitle);
     projectInfo.appendChild(projectDescription);
     projectInfo.appendChild(tagList);
+    projectInfo.appendChild(projectLink);
+
 }
