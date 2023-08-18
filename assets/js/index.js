@@ -16,23 +16,30 @@ createList(projects);
 
 // Fonction pour créer un projet
 function createProject(project) {
+    // Création de l'élément de liste pour chaque projet
     const listItem = document.createElement("li");
     listItem.setAttribute("id", project.id);
+    // Création de la div container 
     const listContainer = document.createElement("div");
     listContainer.classList.add("project");
+    // Ajout de l'image du projet
     const projectImage = document.createElement("img");
     projectImage.setAttribute("alt", project.alt);
     projectImage.setAttribute("loading", "lazy");
     projectImage.src = project.src;
 
+    // Création de la div info
     const projectInfo = document.createElement("div");
     projectInfo.classList.add("project-info");
+    // Ajout du titre du projet
     const projectTitle = document.createElement("h3");
     projectTitle.classList.add("project-title");
     projectTitle.innerText = project.title;
+    // Ajout de la description du projet
     const projectDescription = document.createElement("p");
     projectDescription.classList.add("project-description");
     projectDescription.innerText = project.description;
+    // Création de la liste des tags de technologies utilisées durant le projet
     const tagList = document.createElement("ul");
     tagList.classList.add("project-tags");
     project.tags.forEach((tag) => {
@@ -42,6 +49,7 @@ function createProject(project) {
 
         tagList.appendChild(tagListItem);
     })
+    // Création du lien menant vers le repository GitHub de chaque projet
     const projectLink = document.createElement("a");
     projectLink.setAttribute("href", project.link);
     projectLink.setAttribute("target", "blank");
