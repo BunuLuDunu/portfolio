@@ -49,12 +49,21 @@ function createProject(project) {
 
         tagList.appendChild(tagListItem);
     })
+    // Création d'un container pour les liens
+    const projectLinks = document.createElement("div")
+    projectLinks.classList.add("project-links");
     // Création du lien menant vers le repository GitHub de chaque projet
+    const projectGitHub = document.createElement("a");
+    projectGitHub.setAttribute("href", project.github);
+    projectGitHub.setAttribute("target", "blank");
+    projectGitHub.classList.add("project-link");
+    projectGitHub.innerText = "Repo GitHub";
+    // Création du lien menant au site déployé
     const projectLink = document.createElement("a");
     projectLink.setAttribute("href", project.link);
     projectLink.setAttribute("target", "blank");
     projectLink.classList.add("project-link");
-    projectLink.innerText = "Repo GitHub";
+    projectLink.innerText = "Lien vers le site";
 
     list.appendChild(listItem);
     listItem.appendChild(listContainer);
@@ -63,6 +72,7 @@ function createProject(project) {
     projectInfo.appendChild(projectTitle);
     projectInfo.appendChild(projectDescription);
     projectInfo.appendChild(tagList);
-    projectInfo.appendChild(projectLink);
-
+    projectInfo.appendChild(projectLinks);
+    projectLinks.appendChild(projectGitHub);
+    projectLinks.appendChild(projectLink);
 }

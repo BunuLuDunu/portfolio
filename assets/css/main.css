@@ -309,6 +309,10 @@ footer {
   padding: 0.5rem 0.75rem;
   border-radius: 1.5rem;
 }
+.projects .project-info .project-links {
+  display: flex;
+  gap: 1rem;
+}
 .projects .project-info .project-link {
   display: block;
   margin-inline: auto;
@@ -319,7 +323,7 @@ footer {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .projects-title {
     font-size: 2rem;
   }

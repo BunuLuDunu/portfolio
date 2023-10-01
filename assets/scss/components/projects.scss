@@ -60,6 +60,11 @@
                 border-radius: 1.5rem;
             }
 
+            .project-links {
+                display: flex;
+                gap: 1rem;
+            }
+
             .project-link {
                 display: block;
                 margin-inline: auto;
@@ -75,7 +80,7 @@
 
 // Media queries 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
     .projects {
 
         &-title {
