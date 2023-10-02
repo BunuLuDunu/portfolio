@@ -312,15 +312,12 @@ footer {
 .projects .project-info .project-links {
   display: flex;
   gap: 1rem;
+  margin-top: 1.5rem;
 }
 .projects .project-info .project-link {
-  display: block;
-  margin-inline: auto;
-  margin-top: 1rem;
-  background-color: #9DB5B2;
-  padding: 1rem 1.5rem;
-  border-radius: 1.5rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 @media screen and (max-width: 1024px) {
