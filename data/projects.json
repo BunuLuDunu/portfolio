@@ -9,7 +9,8 @@
             "React.js",
             "Sass"
         ],
-        "github": "https://github.com/BunuLuDunu/kasa"
+        "github": "https://github.com/BunuLuDunu/kasa",
+        "live": "https://kasa-beige.vercel.app/"
 
     },
 
@@ -25,7 +26,8 @@
             "JavaScript",
             "API"
         ],
-        "github": "https://github.com/BunuLuDunu/archiwebos"
+        "github": "https://github.com/BunuLuDunu/archiwebos",
+        "live": "https://archiwebos.vercel.app/"
     },
 
     {
